@@ -7,6 +7,7 @@
   --text: #e8e8f0;
   --text-muted: #8888aa;
   --radius: 12px;
+  --green: #34c759;
 }
 
 * {
@@ -88,7 +89,7 @@ body {
 .button-row button {
   background: var(--accent-dim);
   border: 1px solid var(--accent);
-  color: var(--text);
+  color: green;
   font-family: inherit;
   font-size: 1.1rem;
   padding: 0.5rem 1.5rem;
@@ -113,4 +114,8 @@ body {
   padding: 0.1em 0.4em;
   border-radius: 4px;
   font-size: 0.85em;
+}
+
+:root {
+  --green: #34c759;
 }
