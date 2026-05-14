@@ -114,3 +114,9 @@ body {
   border-radius: 4px;
   font-size: 0.85em;
 }
+
+.welcome-message {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-top: 1.5rem;
+}
